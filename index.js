@@ -15,7 +15,9 @@ var button = ToggleButton({
     id: "Freenode_Icon",
     label: "Freenode IRC Client",
     icon: {
-	"16": "./irc.png"
+	"16": "./chat-16.png",
+	"32": "./chat-32.png",
+	"64": "./chat-64.png"
     },
     onChange: handleChange
 });
